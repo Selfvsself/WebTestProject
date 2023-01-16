@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" configfailurepolicy="continue" parallel="tests" thread-count="2">
+    <test name="HeadersOnEducationPageTest">
+        <classes>
+            <class name="org.example.tests.HeadersOnEducationPageTest"/>
+        </classes>
+    </test>
+    <test name="SearchDropDownAreaPosition">
+        <classes>
+            <class name="org.example.tests.SearchDropDownAreaPositionTest"/>
+        </classes>
+    </test>
+    <test name="SearchResultTest">
+        <classes>
+            <class name="org.example.tests.SearchResultTest"/>
+        </classes>
+    </test>
+    <test name="SubHeadMenuItemsTest">
+        <classes>
+            <class name="org.example.tests.SubHeadMenuItemsTest"/>
+        </classes>
+    </test>
+</suite>
